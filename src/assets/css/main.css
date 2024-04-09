@@ -68,6 +68,8 @@ body {
 /*TABLA*/
 .dashboard {
   padding: 16px;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .title {
