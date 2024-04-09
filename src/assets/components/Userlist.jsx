@@ -27,7 +27,7 @@ if (loading) {
 }
 
   return (
-      <Tablauser title='USER LIST'>
+      <Tablauser title='USUARIOS'>
         {users.map((user) => (
           <Tablau
             key={user.id}

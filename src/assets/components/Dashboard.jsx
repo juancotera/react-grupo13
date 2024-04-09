@@ -25,7 +25,7 @@ const Dashboard = () => {
   }
 
   return (
-      <Tablelist title='DASHBOARD'>
+      <Tablelist title='PELICULAS'>
         {data.products.map((product) => (
           <Tabla
             key={product.id}
