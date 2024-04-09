@@ -1,11 +1,11 @@
-// import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Dashboard from './assets/components/Dashboard';
-
-import './assets/css/main.css'
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client'; //ya no se necesita el ReactDOM
+import App from './assets/components/Rutas';
+const root = createRoot(document.getElementById('root'));
 
 root.render(
-  <Dashboard />
-)
+
+    <App />
+
+);

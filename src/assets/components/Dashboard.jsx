@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Tablelist } from './Tablelist'; // Asegúrate de importar tu componente Tablelist
 import { Tabla } from './Tabla';
-import { Sidebar } from './Sidebar';
+// import { Sidebar } from './Sidebar';
 
 const Dashboard = () => {
   const [data, setData] = useState(null);
@@ -25,8 +25,6 @@ const Dashboard = () => {
   }
 
   return (
-    <>
-      <Sidebar />
       <Tablelist title='DASHBOARD'>
         {data.products.map((product) => (
           <Tabla
@@ -41,7 +39,6 @@ const Dashboard = () => {
           />
         ))}
       </Tablelist>
-    </>
   );
 };
 
